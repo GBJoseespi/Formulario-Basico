@@ -1,0 +1,104 @@
+.fondo {
+    background-image: url("../img/imgg.jpg");
+    background-size: cover;
+}
+
+fieldset {
+    width: 20rem;
+    height: 22rem;
+    margin: auto;
+    margin-top: 10rem;
+    border: solid 0px;
+    background-color: white;
+    box-shadow: 1px -1px 17px 10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    border-bottom: solid 1px #A9A9A9;
+    padding-bottom: 4px;
+    font-size: 30px;
+}
+
+.name,
+.sign {
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    border-top: solid 0px;
+
+
+}
+
+
+
+input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: solid 1px;
+    width: 10rem;
+    outline: none;
+    /*con esto quitamos el bore cuando este activo el input*/
+}
+
+
+button {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    background-color: #4169E1;
+    border: 0px;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline crimson;
+}
+
+input:valid {
+    border-bottom: solid 1px green;
+}
+
+input:invalid {
+    border-bottom: solid 1px crimson;
+
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #2857e4;
+}
+
+.imguser {
+    max-width: 1rem;
+    padding-right: 2px;
+    
+
+}
+.img-password{
+        max-width: 1rem;
+
+}
